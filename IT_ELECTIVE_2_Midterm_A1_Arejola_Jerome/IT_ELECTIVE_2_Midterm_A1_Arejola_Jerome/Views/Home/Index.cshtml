@@ -1,0 +1,164 @@
+﻿@{
+    ViewData["Title"] = "Portfolio Showcase";
+}
+
+<!-- 1. HOME SECTION -->
+<section id="home" class="d-flex align-items-center bg-light min-vh-100">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 text-center text-lg-start">
+                <h1 class="display-3 fw-bold text-dark">Jerome A. Arejola</h1>
+                <h3 class="text-primary mb-4">Aspiring Web Developer</h3>
+                <p class="lead text-muted mb-4">
+                    Welcome to my assignment hub! Here you will learn more about me.
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a href="#projects" class="btn btn-primary btn-lg px-4 me-md-2">View Projects</a>
+                    <a href="#contact" class="btn btn-outline-secondary btn-lg px-4">Contact Me</a>
+                </div>
+            </div>
+            <div class="col-lg-5 text-center mt-5 mt-lg-0">
+                <img src="https://media.istockphoto.com/id/689364180/vector/smiling-cartoon-face-positive-people-emotion-icon.jpg?s=612x612&w=0&k=20&c=2olrbVI2dkVyR0XKaMs4cSDrzpA4zH4FrCfZ_rKwVjU=" class="img-fluid rounded-circle shadow-lg border border-4 border-white" alt="Profile pic" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 2. ABOUT ME SECTION -->
+<section id="about" class="container">
+    <div class="row">
+        <div class="col-12"><h2 class="fw-bold mb-4"><span class="text-primary">#</span> About Me</h2></div>
+        <div class="col-lg-8">
+            <p class="fs-5 text-secondary">
+                Hi there! I’m an IT student who just really loves building websites. I first got into coding because I wanted to know how the apps we use every day actually work behind the scenes. Now, I spend most of my time writing code, fixing bugs, and figuring out how to make sites look clean and easy to use.
+            </p>
+            <p class="fs-5 text-secondary">
+                My main goal right now is to find a cool internship where I can learn from a real team and work on actual projects. When I’m not glued to my computer screen, I’m usually playing video games, trying out new food, or just hanging out with friends.
+            </p>
+        </div>
+        <div class="col-lg-4 bg-light p-4 rounded shadow-sm">
+            <h5 class="fw-bold text-dark mb-3">Academic Info</h5>
+            <ul class="list-unstyled mb-0">
+                <li class="mb-2"><strong>Program:</strong> BS in Information Technology</li>
+                <li><strong>Status:</strong> Midterm Phase</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- 3. SKILLS SECTION -->
+<section id="skills" class="bg-light">
+    <div class="container">
+        <h2 class="fw-bold mb-5 text-center"><span class="text-primary">#</span> Technical Skills</h2>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm text-center p-3">
+                    <div class="fs-1 text-primary"><i class="bi bi-code-slash"></i></div>
+                    <h5 class="card-title fw-bold mt-2">Languages</h5>
+                    <p class="card-text text-muted">Simple C#, Simple JavaScript, Simple Python</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm text-center p-3">
+                    <div class="fs-1 text-success"><i class="bi bi-globe"></i></div>
+                    <h5 class="card-title fw-bold mt-2">Web Stack</h5>
+                    <p class="card-text text-muted">HTML, CSS</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm text-center p-3">
+                    <div class="fs-1 text-warning"><i class="bi bi-database"></i></div>
+                    <h5 class="card-title fw-bold mt-2">Databases</h5>
+                    <p class="card-text text-muted">Simple SQL</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm text-center p-3">
+                    <div class="fs-1 text-danger"><i class="bi bi-tools"></i></div>
+                    <h5 class="card-title fw-bold mt-2">Dev Tools</h5>
+                    <p class="card-text text-muted">Git, GitHub, Visual Studio, VS Code</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 4. PROJECTS SECTION -->
+<section id="projects" class="container">
+    <h2 class="fw-bold mb-5"><span class="text-primary">#</span> Highlighted Projects</h2>
+    <div class="row g-4">
+        <!-- Project Item Block 1 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="https://picsum.photos/id/1/600/400" class="card-img-top" alt="App Preview" />
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title fw-bold">Console StudentSystem</h5>
+                    <p class="card-text text-muted flex-grow-1">A console-based student information system for managing academic records and course enrollments.</p>
+                    <div class="mb-3"><span class="badge bg-secondary">C#</span> <span class="badge bg-secondary">Entity Framework</span></div>
+                    <a href="https://github.com/jeromearejola-30/BSIT31E1_PRELIM_H1_AREJOLA_JEROME.git" target="_blank" class="btn btn-outline-primary w-100 mt-auto">
+                        <i class="bi bi-github me-2"></i>View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Project Item Block 2 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="https://picsum.photos/id/2/600/400" class="card-img-top" alt="App Preview" />
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title fw-bold">Console Calculator</h5>
+                    <p class="card-text text-muted flex-grow-1">A simple console application for performing basic arithmetic operations.</p>
+                    <div class="mb-3"><span class="badge bg-secondary">C#</span></div>
+                    <a href="https://github.com/jeromearejola-30/BSIT31E1_PRELIM_A2_AREJOLA_JEROME.git" target="_blank" class="btn btn-outline-primary w-100 mt-auto">
+                        <i class="bi bi-github me-2"></i>View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Project Item Block 3 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="https://picsum.photos/id/3/600/400" class="card-img-top" alt="App Preview" />
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title fw-bold">Console Student Management System Using OOP</h5>
+                    <p class="card-text text-muted flex-grow-1">An record keeping system mapping student academic tracking paths to course lists via entity relational setups.</p>
+                    <div class="mb-3"><span class="badge bg-secondary">C#</span> <span class="badge bg-secondary">EF Core</span></div>
+                    <a href="https://github.com/jpacaonces/BSIT31E1_PRELIM_H1_PACAONCES_JANSSEN.git" target="_blank" class="btn btn-outline-primary w-100 mt-auto">
+                        <i class="bi bi-github me-2"></i>View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 5. CONTACT SECTION -->
+<section id="contact" class="bg-light">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4"><span class="text-primary">#</span> Get In Touch</h2>
+        <p class="text-muted mb-5">Open for internship opportunities and collaborative freelance development work.</p>
+
+        <div class="row justify-content-center g-4 mb-5">
+            <div class="col-6 col-md-2">
+                <a href="mailto:jeromearejola30@gmail.com" class="text-decoration-none text-dark">
+                    <div class="fs-2 text-danger"><i class="bi bi-envelope"></i></div>
+                    <div>Email</div>
+                </a>
+            </div>
+            <div class="col-6 col-md-2">
+                <a href="tel:+63900000000" class="text-decoration-none text-dark">
+                    <div class="fs-2 text-success"><i class="bi bi-telephone"></i></div>
+                    <div>Mobile</div>
+                </a>
+            </div>
+            <div class="col-6 col-md-2">
+                <a href="https://github.com/jeromearejola-30" target="_blank" class="text-decoration-none text-dark">
+                    <div class="fs-2 text-dark"><i class="bi bi-github"></i></div>
+                    <div>GitHub</div>
+                </a>
+            </div>
+        </div>
+
+        <button class="btn btn-dark btn-lg shadow-sm"><i class="bi bi-download me-2"></i>Download Resume</button>
+    </div>
+</section>
