@@ -1,9 +1,8 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-@{
-}
-<section id="about" class="container">
+
+<section id="about" class="container py-5">
     <div class="row">
         <div class="col-12"><h2 class="fw-bold mb-4"><span class="text-primary">#</span> About Me</h2></div>
         <div class="col-lg-8">
@@ -17,8 +16,8 @@
         <div class="col-lg-4 bg-light p-4 rounded shadow-sm">
             <h5 class="fw-bold text-dark mb-3">Academic Info</h5>
             <ul class="list-unstyled mb-0">
-                <li class="mb-2"><strong>Program:</strong> BS in Information Technology</li>
-                <li><strong>Status:</strong> Midterm Phase</li>
+                <li class="mb-2"><strong>Program:</strong> @ViewData["Program"]</li>
+                <li><strong>Status:</strong> @ViewData["Status"]</li>
             </ul>
         </div>
     </div>

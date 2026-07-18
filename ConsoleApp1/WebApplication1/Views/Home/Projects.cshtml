@@ -1,50 +1,43 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-@{
-}
-<section id="projects" class="container">
+
+<section id="projects" class="container py-5">
     <h2 class="fw-bold mb-5"><span class="text-primary">#</span> Highlighted Projects</h2>
     <div class="row g-4">
-        <!-- Project Item Block 1 -->
+        <!-- Project 1 -->
         <div class="col-md-4">
             <div class="card h-100 shadow-sm">
                 <img src="https://picsum.photos/id/1/600/400" class="card-img-top" alt="App Preview" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title fw-bold">Console StudentSystem</h5>
-                    <p class="card-text text-muted flex-grow-1">A console-based student information system for managing academic records and course enrollments.</p>
+                    <h5 class="card-title fw-bold">@ViewData["P1Title"]</h5>
+                    <p class="card-text text-muted flex-grow-1">@ViewData["P1Desc"]</p>
                     <div class="mb-3"><span class="badge bg-secondary">C#</span> <span class="badge bg-secondary">Entity Framework</span></div>
-                    <a href="https://github.com/jeromearejola-30/BSIT31E1_PRELIM_H1_AREJOLA_JEROME.git" target="_blank" class="btn btn-outline-primary w-100 mt-auto">
-                        <i class="bi bi-github me-2"></i>View on GitHub
-                    </a>
+                    <a href="@ViewData["P1Link"]" target="_blank" class="btn btn-outline-primary w-100 mt-auto"><i class="bi bi-github me-2"></i>Code</a>
                 </div>
             </div>
         </div>
-        <!-- Project Item Block 2 -->
+        <!-- Project 2 -->
         <div class="col-md-4">
             <div class="card h-100 shadow-sm">
                 <img src="https://picsum.photos/id/2/600/400" class="card-img-top" alt="App Preview" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title fw-bold">Console Calculator</h5>
-                    <p class="card-text text-muted flex-grow-1">A simple console application for performing basic arithmetic operations.</p>
+                    <h5 class="card-title fw-bold">@ViewData["P2Title"]</h5>
+                    <p class="card-text text-muted flex-grow-1">@ViewData["P2Desc"]</p>
                     <div class="mb-3"><span class="badge bg-secondary">C#</span></div>
-                    <a href="https://github.com/jeromearejola-30/BSIT31E1_PRELIM_A2_AREJOLA_JEROME.git" target="_blank" class="btn btn-outline-primary w-100 mt-auto">
-                        <i class="bi bi-github me-2"></i>View on GitHub
-                    </a>
+                    <a href="@ViewData["P2Link"]" target="_blank" class="btn btn-outline-primary w-100 mt-auto"><i class="bi bi-github me-2"></i>Code</a>
                 </div>
             </div>
         </div>
-        <!-- Project Item Block 3 -->
+        <!-- Project 3 -->
         <div class="col-md-4">
             <div class="card h-100 shadow-sm">
                 <img src="https://picsum.photos/id/3/600/400" class="card-img-top" alt="App Preview" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title fw-bold">Console Student Management System Using OOP</h5>
-                    <p class="card-text text-muted flex-grow-1">An record keeping system mapping student academic tracking paths to course lists via entity relational setups.</p>
+                    <h5 class="card-title fw-bold">@ViewData["P3Title"]</h5>
+                    <p class="card-text text-muted flex-grow-1">@ViewData["P3Desc"]</p>
                     <div class="mb-3"><span class="badge bg-secondary">C#</span> <span class="badge bg-secondary">EF Core</span></div>
-                    <a href="https://github.com/jpacaonces/BSIT31E1_PRELIM_H1_PACAONCES_JANSSEN.git" target="_blank" class="btn btn-outline-primary w-100 mt-auto">
-                        <i class="bi bi-github me-2"></i>View on GitHub
-                    </a>
+                    <a href="@ViewData["P3Link"]" target="_blank" class="btn btn-outline-primary w-100 mt-auto"><i class="bi bi-github me-2"></i>Code</a>
                 </div>
             </div>
         </div>
